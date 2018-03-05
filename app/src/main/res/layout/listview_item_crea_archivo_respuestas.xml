@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre del Archivo"
+        android:layout_weight=".55"
+        android:id="@+id/txtNombreArchivo" />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fecha Archivo"
+        android:layout_weight=".35"
+        android:id="@+id/txtFechaArchivo" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:src="@drawable/generar_respuestas"
+        android:layout_width="0dp"
+        android:layout_weight=".10"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageArchivo"
+        android:layout_marginRight="25dp"/>
+
+</LinearLayout>

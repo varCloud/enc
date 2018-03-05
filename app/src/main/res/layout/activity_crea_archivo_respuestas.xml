@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".CreaArchivoRespuestas">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     >
+
+        <TextView
+            android:layout_weight=".40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Archivo"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:id="@+id/textView9" />
+
+        <TextView
+            android:layout_weight=".30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fecha"
+            android:textSize="25dp"
+            android:id="@+id/textView10" />
+
+        <TextView
+            android:layout_weight=".30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Descargar"
+            android:textSize="25dp"
+            android:id="@+id/textView12" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/verdeAstrid"
+
+        />
+
+    <ListView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvArchivos"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@mipmap/cerrar"
+        android:id="@+id/imageCerrar"
+        android:layout_gravity="end"
+        android:layout_weight="0.01"
+        android:visibility="invisible"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Instrucciones"
+        android:id="@+id/txtTituloInstrucciones"
+        android:textSize="@dimen/textTamano"
+        android:textColor="@color/blanco"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/instrucciones"
+            android:id="@+id/txtInstrucciones"
+            android:textSize="@dimen/textTamano"
+            android:textColor="@color/blanco"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/swift_astrid"
+        android:layout_gravity="center"
+        android:id="@+id/imageSwipe"
+        android:layout_weight="0.5"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:background="@drawable/iniciar"
+        android:id="@+id/ivComenzar"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+    />
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Encuestas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="txtiniciar">Iniciar encuesta</string>
+    <string name="splash_1">Calidad</string>
+    <string name="splash_2">- en el servicio -</string>
+    <string name="leyendaInfosocio">• Si no sabe su número de socio:</string>
+    <string name="leyendaDenegar">Caja Morelia Valladolid agradece su vista, que tenga un excelnte día</string>
+    <string name="leyendaBienvenidad">“Hola: Gracias por visitar su Caja Morelia Valladolid. Con la finalidad de evaluar su experiencia con nuestro servicio, se pide su colaboración para resolver un cuestionario de 12 preguntas. Solo le tomará 3 minutos de su tiempo.”</string>
+    <string name="btnComenzar">Comenzar Encuesta</string>
+    <string name="btnCerrar">No, gracias</string>
+    <string name="M">Masculino</string>
+    <string name="F">Femenino:</string>
+    <string name="noSocio">Número de Socio:</string>
+    <string name="Edad">Edad:</string>
+    <string name="Genero">Género:</string>
+    <string name="region">Región:</string>
+    <string name="sucursal">Sucursal:</string>
+    <string name="area">Área:</string>
+    <string name="radioCajas">Cajas</string>
+    <string name="radioEscritorio">Escritorio</string>
+    <string name="btnGuardaConfig">Guardar</string>
+    <string name="msjCierre">“Le agradecemos su apoyo y aportación. ¡Que tenga un excelente día!”</string>
+    <string name="instrucciones">Por favor deslice para calificar la pregunta</string>
+    <string name="titulo_nav_header_1">Caja Morelia</string>
+    <string name="titulo_nav_header_2">Calidad en el servicio</string>
+</resources>
